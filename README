@@ -1,3 +1,5 @@
 README
 
-Python project template
+==Python project template
+
+pip install -e .
