@@ -2,4 +2,4 @@ README
 
 Python project template
 
-使用pip install -e .开发
+使用pip install -e .进行开发
