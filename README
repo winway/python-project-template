@@ -1,5 +1,5 @@
 README
 
-==Python project template
+Python project template
 
-pip install -e .
+使用pip install -e .开发
