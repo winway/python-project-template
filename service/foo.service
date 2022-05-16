@@ -1,0 +1,11 @@
+[Unit]
+Description=foo
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/foo
+ExecStop=/bin/kill -TERM $MAINPID
+Type=simple
+KillMode=control-group
+Restart=on-failure
+RestartSec=3s
